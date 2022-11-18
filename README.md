@@ -17,6 +17,7 @@ These are the current files and folders:
 ```
 1. README.md (file)
 2. assignment-b1 (folder)
+3. mm.in (package folder)
 ```
 
 3. How to use this repository
