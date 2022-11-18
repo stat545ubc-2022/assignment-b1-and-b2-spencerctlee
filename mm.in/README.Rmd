@@ -1,0 +1,26 @@
+---
+output: github_document
+---
+# mm.in
+
+## Description
+
+The goal of mm.in is to convert measurement units of milimeters (mm) to inches (in) by coverting throuh a factor of 1/254.
+
+## Installation instructions
+You can install the development version of mm.in from [Github] (https://github.com/) with
+
+```{r}
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-spencerctlee/mm.in")
+```
+
+## Examples
+Here are some examples to demonstrate the usage of the function and outputs:
+
+```{r}
+library(mm.in)
+## Examples
+mm_to_in(200) # should be "0.7874016"
+mm_to_in(165.2) # should be "0.6503937"
+mm_to_in(-1933.3) # should be "-7.611417"
+```

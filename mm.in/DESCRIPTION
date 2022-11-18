@@ -1,0 +1,15 @@
+Package: mm.in
+Title: Milimeter (mm) to inches (in) calculator
+Version: 0.0.0.9000
+Authors@R: 
+    person("Spencer", "Lee", , "spenclee@student.ubc.ca", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This function converts mm to inches with a 1/254 unit conversion.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Suggests: 
+    digest,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
